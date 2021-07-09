@@ -1,0 +1,33 @@
+
+h1 {
+    color : blue;
+    margin : 10px;
+}
+img {
+    width : 400px;
+}
+#thirdDiv {
+    height : 600px;
+    max-width : 500px;
+    margin: 0 auto;
+    background-color : purple;
+    padding : 50px;
+    border : 20px solid yellow;
+}
+#spanId {
+    font-size : 18px;
+    margin : 50px;
+}
+body {
+    background-image : url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.XLGbGCPaZzknmon9lrhSYwHaHa%26pid%3DApi&f=1');
+}
+div {
+    display : flex;
+    position : relative;
+    justify-content : center;
+    align-items : center;
+    flex-direction: column;
+    background-color: white;
+    max-width: 500px;
+    margin: 0 auto;
+}
