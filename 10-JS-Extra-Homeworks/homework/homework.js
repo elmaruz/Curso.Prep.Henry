@@ -19,6 +19,12 @@ function numberOfCharacters(string) {
   //en formato par clave-valor.
   //Ej: Recibe ---> "adsjfdsfsfjsdjfhacabcsbajda" || Devuelve ---> { a: 5, b: 2, c: 2, d: 4, f: 4, h:1, j: 4, s: 5 } 
   //Escribe tu código aquí
+  return string
+  .split('')
+  .reduce((map, char) => {
+     map[char] = (map[char] || 0) + 1;
+     return map;
+  }, {});
 }
 
 
